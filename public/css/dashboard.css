@@ -1,0 +1,124 @@
+nav {
+    width: 100%;
+    height: 40px;
+    background: #9e2f2f;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.book-card {
+    margin-top: 20px;
+    border: 2px solid #9e2f2f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 40px;
+}
+
+.book-card:hover {
+    transform: scale(1.02);
+}
+
+.book-title {
+    padding-top: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.book-author,
+.book-year {
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.book-description {
+    font-size: 1em;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.cardBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnEdit {
+    padding: 8px 12px;
+    background: #a26868;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnDel {
+    padding: 8px 12px;
+    background: #d10606;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn {
+    padding: 8px 12px;
+    background: white;
+    color: #9e2f2f;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inputBox {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 2px solid rgb(126, 123, 123);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
